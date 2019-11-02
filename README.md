@@ -50,9 +50,9 @@ answerTextStyle: {
   max={5000}
   min={400}
   titleTextExpandedColor="#FFFFFF"
-  titleTextClosedColor="main_text_color"
-  expandedColor={colors.main_text_color}
-  closedColor={colors.action_bg_color}
+  titleTextClosedColor="#464B6D"
+  expandedColor="#464B6D"
+  closedColor="#E6E9FC"
   style={styles.collapsibleContainer}
 >
   <View style={styles.answerViewStyle}>
