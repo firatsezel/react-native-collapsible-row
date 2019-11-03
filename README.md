@@ -15,9 +15,9 @@ $ npm install react-native-collapsible-row --save
   title="Lorem ipsum dolor sit amet"
   max={5000}
   min={400}      
-  style={styles.collapsibleContainer}
+  style={{ flex: 1 }}
 >
-  <View style={styles.answerTextStyle}>
+  <View style={{ color: '#FFFFFF', fontSize: 15, fontWeight: 'bold' }}>
     <Text color="page_bg_color" size={15} weight="BOLD">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor eros cursus tempor rutrum.</Text>
   </View>
 </CollapsibleView>
