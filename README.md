@@ -7,7 +7,26 @@
 $ npm install react-native-collapsible-row --save
 ```
 
-## Usage
+## Basic Usage
+```javascript
+
+<CollapsibleView
+  isDefaultHeader
+  title="Lorem ipsum dolor sit amet"
+  max={5000}
+  min={400}      
+  style={styles.collapsibleContainer}
+>
+  <View style={styles.answerTextStyle}>
+    <Text color="page_bg_color" size={15} weight="BOLD">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor eros cursus tempor rutrum.</Text>
+  </View>
+</CollapsibleView>
+
+```
+
+![demo](demo2.gif)
+
+## More Detailed Usage
 ```javascript
 import CollapsibleView from "react-native-collapsible-row";
 
