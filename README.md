@@ -13,6 +13,13 @@ import CollapsibleView from "react-native-collapsible-row";
 
 collapsibleContainer: { flex: 1 },
 
+headerStyle: {
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  maxHeight: 300,
+  alignItems: 'center',
+},
+
 titleStyle: {
   marginLeft: 15,
   marginTop: 5,
